@@ -90,7 +90,9 @@ a{
 #player-part .top-player{
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 40px;
     background-color: #fff;
+    border-radius: 5px;
 
 }
 
@@ -135,16 +137,13 @@ a{
     grid-template-rows: repeat(2,1fr);
 }
 
-hr{
-    border: 2px solid red;
-    
+hr {
+    border: 1px solid #9F9F9F;
+    margin-top: 25px;
+    width: 95%;
+    position: relative;
+    left: 26px;
 }
-
-
-
-
-
-
 
 
 #player-part .blogs-item{
@@ -195,4 +194,119 @@ hr{
 }
 /* =========================================
             player part end
+============================================ */
+
+
+/* =========================================
+            course part start
+============================================ */
+#course-part {
+    padding-bottom: 47px;
+    background-color: #F3F1FF;
+    padding-top: 20px;
+}
+
+#course-part .course-main{
+    max-width: 1200px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#course-part .course-main h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    padding-top: 33px;
+    margin-left: 61px;
+    margin-bottom: 30px;
+}
+
+#course-part .course-item {
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(240, 224, 224);
+
+    
+}
+
+#course-part .course-item:last-child{
+    margin-right: 20px;
+}
+
+#course-part .course-item img{
+    width: 224px;
+    height: 104px;
+    margin-left: 30px;
+    margin-top: 24px;
+}
+
+
+#course-part .course-item h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1E1E1E;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+
+#course-part .course-item  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ED6B4F;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#course-part .course-item .star {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#course-part .course-item .star small{
+    font-size: 20px;
+    color: #9F9F9F;
+}
+
+#course-part .course-item .star i{
+    color: #FFC014;
+}
+
+#course-part .course-item .clock {
+    padding: 10px;
+    background-color: #de4f5fb0;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 3px;
+}
+
+#course-part .course-item .clock i{
+    color: #FF4A60;
+    font-size: 15px;
+}
+
+#course-part .course-item .clock small{
+    color: #FF4A60;
+    font-size: 15px;
+}
+
+#course-part .course-item .footer-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+#course-part .course-main .course-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* =========================================
+            course part end
 ============================================ */
