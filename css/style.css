@@ -13,3 +13,64 @@ a{
 }
 
 /* ========================================= main css start ========================= */
+/* =========================================
+            header part start
+============================================ */
+
+#header{
+    line-height: 94px;
+    background-color: #562EFF;
+}
+#header .header-main{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#header .header-main .logo img {
+    width: 40px;
+    height: 50px;
+    margin-top: 26px;
+}
+
+#header .header-main .logo{
+    display: flex;
+}
+
+#header .header-main .logo h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+#header .header-main .text ul li {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+#header .header-main .text ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+#header .header-main .text ul li .img {
+    position: absolute;
+    margin-top: -31px;
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.text{
+    grid-area: text;
+}
+
+/* =========================================
+            header part end
+============================================ */
