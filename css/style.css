@@ -60,7 +60,8 @@ a{
 
 #header .header-main .text ul li .img {
     position: absolute;
-    margin-top: -31px;
+    margin-top: -30px;
+    margin-left: -30px;
 }
 
 .logo{
@@ -73,4 +74,125 @@ a{
 
 /* =========================================
             header part end
+============================================ */
+
+/* =========================================
+            player part start
+============================================ */
+#player-part{
+    height: 700px;
+    background-color: #F3F1FF;;
+
+}
+
+
+
+#player-part .top-player{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+#player-part .top-player h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    padding-top: 33px;
+    margin-left: 33px;
+
+}
+
+
+#player-part .top-player .player-info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#player-part .top-player .player-info .img img{
+    width: 56px;
+    height: 56px;
+
+}
+
+#player-part .top-player .player-info .text h2{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#player-part .top-player .item{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+hr{
+    border: 2px solid red;
+    
+}
+
+
+
+
+
+
+
+
+#player-part .blogs-item{
+    display: flex;
+}
+
+
+
+
+#player-part .blogs-item img{
+    width: 177px;
+    height: 117px;
+    margin-left: 30px;
+    margin-top: 31px;
+}
+
+#player-part .blogs-item .details h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 16px;
+    margin-top: 35px;
+}
+
+#player-part .blogs-item .details small{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9F9F9F;
+
+}
+
+#player-part .blogs-item .details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #562EFF;
+    margin-left: 16px;
+    margin-top: 6px;
+
+}
+
+#player-part .blog-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+/* =========================================
+            player part end
 ============================================ */
